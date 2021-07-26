@@ -42,13 +42,8 @@ alias more='less -R'
 
 alias sbl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
-# Temporary work productivity shortcuts
-export C6GIT="$HOME/Code/campsixgit"
-
-alias mm="sbl -n $C6GIT/metalmachine/metalmachine.sublime-project"
-alias cdmm="cd $C6GIT/metalmachine/"
-
-export PX4PATH="$HOME/Code/campsixgit/Firmware"
+alias mm="sbl -n $HOME/metalmachine/metalmachine.sublime-project"
+alias cdmm="cd $HOME/metalmachine/"
 
 # Git shortcuts
 alias gp='git push'
